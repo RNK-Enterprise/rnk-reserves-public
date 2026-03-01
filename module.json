@@ -1,0 +1,41 @@
+{
+  "id": "rnk-reserves",
+  "title": "RNK™ Reserves",
+  "description": "Hero Points system for D&D 2024, with GM controls and player spending buttons on rolls. Premium module - support RNK on Patreon: https://www.patreon.com/RagNaroks",
+  "authors": [
+    {
+      "name": "Odinn",
+      "url": "https://www.patreon.com/RagNaroks"
+    },
+    {
+      "name": "RNK Enterprise",
+      "url": "https://github.com/RNK-Enterprise"
+    }
+  ],
+  "version": "1.3.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13.0.0"
+  },
+  "url": "https://github.com/RNK-Enterprise/rnk-reserves",
+  "manifest": "https://raw.githubusercontent.com/RNK-Enterprise/rnk-reserves-public/main/module.json",
+  "download": "https://raw.githubusercontent.com/RNK-Enterprise/rnk-reserves-public/main/module.zip",
+  "esmodules": [
+    "src/main.js"
+  ],
+  "styles": [
+    "styles/rnk-reserves.css",
+    "styles/log-viewer.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "socket": true,
+  "protected": true,
+  "license": "LICENSE",
+  "licenseURL": "https://github.com/RNK-Enterprise/rnk-reserves/blob/main/LICENSE"
+}
